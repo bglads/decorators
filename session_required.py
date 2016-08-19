@@ -1,6 +1,7 @@
 '''
 Decorator is useful when a django app has authentication done outside, for example when integrating with legacy apps
 '''
+from functools import wraps
 from django.http import HttpResponse
 import json
 
